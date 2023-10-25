@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +16,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: url('./truck.png'); /* Add the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .App-link {
@@ -35,4 +34,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.login-box {
+  background-color: #282c34; /* Change background color to match App-header */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  color: black; /* Add this line to change text color inside login box */
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./truck.png'); /* Add the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
